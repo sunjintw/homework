@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by jsun on 12/7/15.
  */
-public class KingOfParkingLot {
+public class KingOfParkingLot implements ParkingManager {
     private List<ParkingLot> parkingLotList;
 
     public KingOfParkingLot(List<ParkingLot> parkingLotList) {

@@ -30,4 +30,8 @@ public class ParkingLot {
         }
         return false;
     }
+
+    public int getParkingSpaceNum() {
+        return limit-sendedTickets.size();
+    }
 }

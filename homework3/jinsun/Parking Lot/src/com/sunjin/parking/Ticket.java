@@ -7,6 +7,16 @@ public class Ticket {
 
     private String carNumber;
 
+    public int getParkingLotIndex() {
+        return parkingLotIndex;
+    }
+
+    public void setParkingLotIndex(int parkingLotIndex) {
+        this.parkingLotIndex = parkingLotIndex;
+    }
+
+    private int parkingLotIndex;
+
     public Ticket(String carNumber) {
         this.carNumber = carNumber;
     }
