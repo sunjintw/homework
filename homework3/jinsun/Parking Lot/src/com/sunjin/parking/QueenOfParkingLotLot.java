@@ -5,10 +5,10 @@ import java.util.List;
 /**
  * Created by jsun on 12/10/15.
  */
-public class QueenOfParkingLot implements ParkingManager {
-    private final List<ParkingLot> parkingLotList;
+public class QueenOfParkingLotLot implements ParkingLotManager {
+    private List<ParkingLot> parkingLotList;
 
-    public QueenOfParkingLot(List<ParkingLot> parkingLotList) {
+    public QueenOfParkingLotLot(List<ParkingLot> parkingLotList) {
         this.parkingLotList = parkingLotList;
     }
 

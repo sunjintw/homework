@@ -5,10 +5,10 @@ import java.util.List;
 /**
  * Created by jsun on 12/7/15.
  */
-public class KingOfParkingLot implements ParkingManager {
+public class KingOfParkingLotLot implements ParkingLotManager {
     private List<ParkingLot> parkingLotList;
 
-    public KingOfParkingLot(List<ParkingLot> parkingLotList) {
+    public KingOfParkingLotLot(List<ParkingLot> parkingLotList) {
         this.parkingLotList = parkingLotList;
     }
 
@@ -25,12 +25,8 @@ public class KingOfParkingLot implements ParkingManager {
     }
 
     public boolean carOutService(Ticket ticket) {
-        for (ParkingLot parking: parkingLotList
-             ) {
-            if (parking.carOut(ticket)){
-                return true;
-            }
-        }
-        return false;
+        if (null != ticket && ticket.getParkingLotIndex() >= 0)
+            return parkingLotList.get(ticket.getParkingLotIndex()).carOut(ticket);
+        else return false;
     }
 }

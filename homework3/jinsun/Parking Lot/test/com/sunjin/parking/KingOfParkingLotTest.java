@@ -6,7 +6,8 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static junit.framework.TestCase.*;
+
 
 /**
  * Created by jsun on 12/7/15.
@@ -34,8 +35,8 @@ public class KingOfParkingLotTest {
 
     @Test
     public void testCarInServiceSuccess() {
-        KingOfParkingLot kingOfParkingLot;
-        kingOfParkingLot = new KingOfParkingLot(parkingLotList);
+        KingOfParkingLotLot kingOfParkingLot;
+        kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
         String carNumber = "a";
         Ticket ticket = kingOfParkingLot.carInService(carNumber);
         assertNotNull(ticket);
@@ -45,14 +46,14 @@ public class KingOfParkingLotTest {
     @Test
     public void testCarInServiceFailed() {
         String carNumber = "a";
-        KingOfParkingLot kingOfParkingLot = new KingOfParkingLot(parkingLotList2);
+        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList2);
         Ticket ticket = kingOfParkingLot.carInService(carNumber);
         assertNull(ticket);
     }
 
     @Test
     public  void testCarOutServiceSuccess(){
-        KingOfParkingLot kingOfParkingLot = new KingOfParkingLot(parkingLotList);
+        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
         String carNumber = "a";
         Ticket ticket = kingOfParkingLot.carInService(carNumber);
         assertTrue(kingOfParkingLot.carOutService(ticket));
@@ -60,7 +61,7 @@ public class KingOfParkingLotTest {
 
     @Test
     public  void testCarOutServiceFailed(){
-        KingOfParkingLot kingOfParkingLot = new KingOfParkingLot(parkingLotList);
+        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
         Ticket ticket = new Ticket("a");
         assertFalse(kingOfParkingLot.carOutService(ticket));
     }

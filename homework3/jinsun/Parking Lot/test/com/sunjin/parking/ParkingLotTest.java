@@ -3,7 +3,6 @@ package com.sunjin.parking;
 import org.junit.Before;
 import org.junit.Test;
 
-import static junit.framework.Assert.assertEquals;
 import static junit.framework.TestCase.*;
 
 /**
