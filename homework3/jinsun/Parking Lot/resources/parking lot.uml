@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.sunjin.parking</OriginalElement>
+  <nodes>
+    <node x="193.3026315789474" y="147.53947368421052">com.sunjin.parking.QueenOfParkingLotTest</node>
+    <node x="386.0" y="79.0">com.sunjin.parking.KingOfParkingLotLot</node>
+    <node x="192.0" y="79.0">com.sunjin.parking.QueenOfParkingLotLot</node>
+    <node x="0.0" y="79.0">com.sunjin.parking.PrinceOfParkingLotLot</node>
+    <node x="203.0" y="0.0">com.sunjin.parking.ParkingLotManager</node>
+    <node x="388.78947368421046" y="145.9210526315789">com.sunjin.parking.KingOfParkingLotTest</node>
+    <node x="586.4605263157896" y="145.65789473684208">com.sunjin.parking.ParkingLotTest</node>
+    <node x="-4.368421052631561" y="144.0">com.sunjin.parking.PrinceOfParkingLotTest</node>
+    <node x="0.0" y="449.0">com.sunjin.parking.Ticket</node>
+    <node x="584.9078947368421" y="76.85526315789471">com.sunjin.parking.ParkingLot</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sunjin.parking.QueenOfParkingLotLot" target="com.sunjin.parking.ParkingLotManager">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.sunjin.parking.PrinceOfParkingLotLot" target="com.sunjin.parking.ParkingLotManager">
+      <point x="0.0" y="-14.5" />
+      <point x="86.0" y="54.0" />
+      <point x="228.33333333333334" y="54.0" />
+      <point x="-50.66666666666666" y="14.5" />
+    </edge>
+    <edge source="com.sunjin.parking.KingOfParkingLotLot" target="com.sunjin.parking.ParkingLotManager">
+      <point x="0.0" y="-14.5" />
+      <point x="467.0" y="54.0" />
+      <point x="329.66666666666663" y="54.0" />
+      <point x="50.66666666666663" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9156626506024096" x="334.15789473684214" y="239.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

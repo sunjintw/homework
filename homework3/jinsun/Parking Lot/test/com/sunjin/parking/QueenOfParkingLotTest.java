@@ -8,11 +8,11 @@ import java.util.List;
 
 import static junit.framework.TestCase.*;
 
-
 /**
- * Created by jsun on 12/7/15.
+ * Created by jsun on 12/10/15.
  */
-public class KingOfParkingLotTest {
+public class QueenOfParkingLotTest {
+
     List<ParkingLot> parkingLotList;
     List<ParkingLot> parkingLotList2;
 
@@ -35,35 +35,35 @@ public class KingOfParkingLotTest {
 
     @Test
     public void testCarInServiceSuccess() {
-        KingOfParkingLotLot kingOfParkingLot;
-        kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
+        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList);
         String carNumber = "a";
-        Ticket ticket = kingOfParkingLot.carInService(carNumber);
+        Ticket ticket = queenOfParkingLot.carInService(carNumber);
         assertNotNull(ticket);
         assertEquals(ticket.getCarNumber(), carNumber);
+        assertEquals(2, ticket.getParkingLotIndex());
     }
 
     @Test
     public void testCarInServiceFailed() {
         String carNumber = "a";
-        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList2);
-        Ticket ticket = kingOfParkingLot.carInService(carNumber);
+        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList2);
+        Ticket ticket = queenOfParkingLot.carInService(carNumber);
         assertNull(ticket);
     }
 
     @Test
     public  void testCarOutServiceSuccess(){
-        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
+        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList);
         String carNumber = "a";
-        Ticket ticket = kingOfParkingLot.carInService(carNumber);
-        assertTrue(kingOfParkingLot.carOutService(ticket));
+        Ticket ticket = queenOfParkingLot.carInService(carNumber);
+        assertTrue(queenOfParkingLot.carOutService(ticket));
     }
 
     @Test
     public  void testCarOutServiceFailed(){
-        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
+        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList);
         Ticket ticket = new Ticket("a");
-        assertFalse(kingOfParkingLot.carOutService(ticket));
+        assertFalse(queenOfParkingLot.carOutService(ticket));
     }
 
 }

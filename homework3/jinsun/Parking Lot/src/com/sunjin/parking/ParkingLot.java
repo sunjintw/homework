@@ -8,26 +8,34 @@ import java.util.List;
  */
 public class ParkingLot {
     private int limit;
-    private List<Ticket> sendedTickets;
+    private List<Ticket> sentTickets;
     public ParkingLot(int limit) {
         this.limit = limit;
-        sendedTickets = new ArrayList<Ticket>();
+        sentTickets = new ArrayList<Ticket>();
     }
 
     public Ticket carIn(String carNumber) {
-        if (sendedTickets.size()<limit){
+        if (sentTickets.size()<limit){
             Ticket ticket = new Ticket(carNumber);
-            sendedTickets.add(ticket);
+            sentTickets.add(ticket);
             return ticket;
         }
         return null;
     }
 
     public boolean carOut(Ticket ticket) {
-        if (sendedTickets.contains(ticket)){
-            sendedTickets.remove(ticket);
+        if (sentTickets.contains(ticket)){
+            sentTickets.remove(ticket);
             return true;
         }
         return false;
+    }
+
+    public int getParkingSpaceNum() {
+        return limit- sentTickets.size();
+    }
+
+    public float getParkingSpqcePCT(){
+        return (limit- sentTickets.size())/(float)limit;
     }
 }

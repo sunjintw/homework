@@ -45,4 +45,9 @@ public class ParkingLotTest {
         Ticket ticket = new Ticket("aa");
         assertFalse(parkingLot.carOut(ticket));
     }
+
+    @Test
+    public void testGetParkingSpaceNum(){
+        assertEquals(5, parkingLot.getParkingSpaceNum());
+    }
 }
