@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e507e6f-66b8-4fda-9f98-55199dad2dc6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/parking lot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/parking lot.uml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sunjin/parking/PrinceOfParkingLotLot.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/PrinceOfParkingLotTest.java" />
@@ -971,7 +973,7 @@
       <workItem from="1449648312650" duration="16000" />
       <workItem from="1449658703876" duration="647000" />
       <workItem from="1449744949015" duration="2190000" />
-      <workItem from="1449945070409" duration="4102000" />
+      <workItem from="1449945070409" duration="4133000" />
     </task>
     <servers />
   </component>
@@ -1008,7 +1010,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11794000" />
+    <option name="totallyTimeSpent" value="11825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
