@@ -46,24 +46,24 @@ public class FoolishBoyTest {
     @Test
     public void testCarInServiceFailed() {
         String carNumber = "a";
-        ParkingBoy parkingBoy = new ParkingBoy(new FoolishFinder(), parkingLotList2);
-        Ticket ticket = parkingBoy.carInService(carNumber);
+        ParkingBoy foolishBoy = new ParkingBoy(new FoolishFinder(), parkingLotList2);
+        Ticket ticket = foolishBoy.carInService(carNumber);
         assertNull(ticket);
     }
 
     @Test
     public void testCarOutServiceSuccess() {
-        ParkingBoy parkingBoy = new ParkingBoy(new FoolishFinder(), parkingLotList);
+        ParkingBoy foolishBoy = new ParkingBoy(new FoolishFinder(), parkingLotList);
         String carNumber = "a";
-        Ticket ticket = parkingBoy.carInService(carNumber);
-        assertTrue(parkingBoy.carOutService(ticket));
+        Ticket ticket = foolishBoy.carInService(carNumber);
+        assertTrue(foolishBoy.carOutService(ticket));
     }
 
     @Test
     public void testCarOutServiceFailed() {
-        ParkingBoy parkingBoy = new ParkingBoy(new FoolishFinder(), parkingLotList);
+        ParkingBoy foolishBoy = new ParkingBoy(new FoolishFinder(), parkingLotList);
         Ticket ticket = new Ticket("a", 1);
-        assertFalse(parkingBoy.carOutService(ticket));
+        assertFalse(foolishBoy.carOutService(ticket));
     }
 
 }

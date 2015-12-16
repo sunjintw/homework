@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e507e6f-66b8-4fda-9f98-55199dad2dc6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/sunjin/parking/KingOfParkingLotLot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/sunjin/parking/ParkingLotManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/sunjin/parking/PrinceOfParkingLotLot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/sunjin/parking/QueenOfParkingLotLot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/KingOfParkingLotTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/PrinceOfParkingLotTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/QueenOfParkingLotTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/sunjin/parking/ParkingBoss.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/ParkingBossTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sunjin/parking/ParkingLot.java" afterPath="$PROJECT_DIR$/src/com/sunjin/parking/ParkingLot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sunjin/parking/Ticket.java" afterPath="$PROJECT_DIR$/src/com/sunjin/parking/Ticket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/ParkingLotTest.java" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/ParkingLotTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/FoolishBoyTest.java" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/FoolishBoyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/NormalBoyTest.java" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/NormalBoyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java" afterPath="$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java" />
     </list>
     <ignored path="Parking Lot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +36,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NormalFinder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NormalFinder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/finder/NormalFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.371134">
+            <state vertical-scroll-proportion="0.0">
               <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingManagerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CleverBoyTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.1835052">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FoolishBoyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/FoolishBoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingBoss.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingBoss.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingBossTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingBossTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalBoyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/NormalBoyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="5" selection-start-line="8" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingLotTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingLotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,8 +140,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,10 +187,12 @@
         <option value="$PROJECT_DIR$/test/com/sunjin/parking/ParkingLotTest.java" />
         <option value="$PROJECT_DIR$/src/com/sunjin/parking/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/com/sunjin/parking/ParkingBoy.java" />
-        <option value="$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sunjin/parking/ParkingBoss.java" />
+        <option value="$PROJECT_DIR$/test/com/sunjin/parking/ParkingBossTest.java" />
+        <option value="$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java" />
         <option value="$PROJECT_DIR$/test/com/sunjin/parking/NormalBoyTest.java" />
         <option value="$PROJECT_DIR$/test/com/sunjin/parking/FoolishBoyTest.java" />
-        <option value="$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java" />
+        <option value="$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java" />
       </list>
     </option>
   </component>
@@ -221,28 +307,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parking Lot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parking Lot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -284,32 +348,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.com.sunjin.parking in Parking Lot">
-    <configuration default="false" name="CleverBoyTest.testCarInServiceSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sunjin.parking.finder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Parking Lot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sunjin.parking" />
-      <option name="MAIN_CLASS_NAME" value="com.sunjin.parking.CleverBoyTest" />
-      <option name="METHOD_NAME" value="testCarInServiceSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="com.sunjin.parking in Parking Lot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -402,6 +440,32 @@
       <option name="MAIN_CLASS_NAME" value="com.sunjin.parking.FoolishBoyTest" />
       <option name="METHOD_NAME" value="testCarOutServiceSuccess" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParkingManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sunjin.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Parking Lot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sunjin.parking" />
+      <option name="MAIN_CLASS_NAME" value="com.sunjin.parking.ParkingManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -873,19 +937,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CleverBoyTest.testCarInServiceSuccess" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.com.sunjin.parking in Parking Lot" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarInServiceSuccess" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarOutServiceSuccess" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FoolishBoyTest.testCarOutServiceSuccess" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.com.sunjin.parking in Parking Lot" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarInServiceSuccess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarOutServiceSuccess" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FoolishBoyTest.testCarOutServiceSuccess" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParkingManagerTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.com.sunjin.parking in Parking Lot" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FoolishBoyTest.testCarOutServiceSuccess" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarOutServiceSuccess" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarInServiceSuccess" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CleverBoyTest.testCarInServiceSuccess" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ParkingManagerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FoolishBoyTest.testCarOutServiceSuccess" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarOutServiceSuccess" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GodOfParkingLotTest.testCarInServiceSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -917,14 +981,11 @@
       <workItem from="1450266771460" duration="2625000" />
       <workItem from="1450269417843" duration="560000" />
       <workItem from="1450270431687" duration="16000" />
-      <workItem from="1450270866260" duration="25000" />
+      <workItem from="1450270866260" duration="1210000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_sunjin_parking_in_Parking_Lot - 2015.12.14 at 19h 07m 09s.xml">
-      <configuration name="com.sunjin.parking in Parking Lot" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_sunjin_parking_in_Parking_Lot - 2015.12.14 at 19h 10m 56s.xml">
       <configuration name="com.sunjin.parking in Parking Lot" configurationId="JUnit" />
     </history-entry>
@@ -952,13 +1013,16 @@
     <history-entry file="com_sunjin_parking_in_Parking_Lot - 2015.12.16 at 21h 01m 27s.xml">
       <configuration name="com.sunjin.parking in Parking Lot" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_sunjin_parking_in_Parking_Lot - 2015.12.16 at 21h 30m 36s.xml">
+      <configuration name="com.sunjin.parking in Parking Lot" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21160000" />
+    <option name="totallyTimeSpent" value="22345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -967,10 +1031,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32677165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32677165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1029,23 +1093,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingBoy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1436,14 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6539509">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.79019076">
@@ -1466,52 +1505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.626703">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/FoolishBoyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4359673">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/NormalBoyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7983651">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingLotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0899183">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/finder/FoolishFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27247956">
@@ -1522,9 +1515,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/finder/NormalFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.371134">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="5" selection-start-line="8" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sunjin/parking/ParkingBoss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingBossTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/ParkingLotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/NormalBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/FoolishBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/sunjin/parking/CleverBoyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1835052">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -47,24 +47,24 @@ public class NormalBoyTest {
     @Test
     public void testCarInServiceFailed() {
         String carNumber = "a";
-        ParkingBoy queenOfParkingLot = new ParkingBoy(new NormalFinder(), parkingLotList2);
-        Ticket ticket = queenOfParkingLot.carInService(carNumber);
+        ParkingBoy normalBoy = new ParkingBoy(new NormalFinder(), parkingLotList2);
+        Ticket ticket = normalBoy.carInService(carNumber);
         assertNull(ticket);
     }
 
     @Test
     public  void testCarOutServiceSuccess(){
-        ParkingBoy queenOfParkingLot = new ParkingBoy(new NormalFinder(), parkingLotList);
+        ParkingBoy normalBoy = new ParkingBoy(new NormalFinder(), parkingLotList);
         String carNumber = "a";
-        Ticket ticket = queenOfParkingLot.carInService(carNumber);
-        assertTrue(queenOfParkingLot.carOutService(ticket));
+        Ticket ticket = normalBoy.carInService(carNumber);
+        assertTrue(normalBoy.carOutService(ticket));
     }
 
     @Test
     public  void testCarOutServiceFailed(){
-        ParkingBoy queenOfParkingLot = new ParkingBoy(new NormalFinder(), parkingLotList);
+        ParkingBoy normalBoy = new ParkingBoy(new NormalFinder(), parkingLotList);
         Ticket ticket = new Ticket("a", 1);
-        assertFalse(queenOfParkingLot.carOutService(ticket));
+        assertFalse(normalBoy.carOutService(ticket));
     }
 
 }

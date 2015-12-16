@@ -69,8 +69,8 @@ public class CleverBoyTest {
 
     @Test
     public void testCarOutServiceFailed(){
-        ParkingBoy parkingBoy = new ParkingBoy(new CleverFinder(), parkingLotList);
+        ParkingBoy cleverBoy = new ParkingBoy(new CleverFinder(), parkingLotList);
         Ticket ticket = new Ticket("a", 1);
-        assertFalse(parkingBoy.carOutService(ticket));
+        assertFalse(cleverBoy.carOutService(ticket));
     }
 }
