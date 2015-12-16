@@ -1,27 +1,24 @@
 package com.sunjin.parking;
 
+import com.sunjin.parking.finder.Finder;
+
 import java.util.List;
 
 /**
- * Created by jsun on 12/7/15.
+ * Created by jsun on 12/13/15.
  */
-public class KingOfParkingLotLot implements ParkingLotManager {
+public class ParkingBoy {
     private List<ParkingLot> parkingLotList;
+    private Finder finder;
 
-    public KingOfParkingLotLot(List<ParkingLot> parkingLotList) {
+    public ParkingBoy(Finder princeOfFinder, List<ParkingLot> parkingLotList) {
         this.parkingLotList = parkingLotList;
+        this.finder = princeOfFinder;
     }
 
     public Ticket carInService(String carNumber) {
-        Ticket ticket = null;
-        for (ParkingLot parking:parkingLotList
-             ) {
-                ticket = parking.carIn(carNumber);
-            if (null != ticket){
-                break;
-            }
-        }
-        return ticket;
+        ParkingLot parkingLot = finder.findParkingLot(parkingLotList);
+        return null == parkingLot ? null : parkingLot.carIn(carNumber);
     }
 
     public boolean carOutService(Ticket ticket) {

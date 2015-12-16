@@ -1,5 +1,7 @@
 package com.sunjin.parking;
 
+import com.sunjin.parking.finder.NormalFinder;
+import com.sunjin.parking.finder.FoolishFinder;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,13 +10,13 @@ import java.util.List;
 
 import static junit.framework.TestCase.*;
 
-
 /**
- * Created by jsun on 12/7/15.
- */
-public class KingOfParkingLotTest {
+ * Created by jsun on 12/14/15.
+// */
+public class ParkingManagerTest {
     List<ParkingLot> parkingLotList;
     List<ParkingLot> parkingLotList2;
+    List<ParkingBoy> parkingBoys;
 
     @Before
     public void setUp() throws Exception {
@@ -31,14 +33,20 @@ public class KingOfParkingLotTest {
         parkingLotList2 = new ArrayList<>();
         parkingLotList2.add(parkingLot1);
         parkingLotList2.add(parkingLot2);
+        ParkingBoy foolishBoy = new ParkingBoy(new FoolishFinder(), parkingLotList);
+        ParkingBoy cleverBoy = new ParkingBoy(new NormalFinder(), parkingLotList2);
+        parkingBoys = new ArrayList<>();
+        parkingBoys.add(foolishBoy);
+        parkingBoys.add(cleverBoy);
+
     }
 
     @Test
-    public void testCarInServiceSuccess() {
-        KingOfParkingLotLot kingOfParkingLot;
-        kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
+    public void testCarInServicSuccess() {
+        ParkingManager godOfParkingLot;
+        godOfParkingLot = new ParkingManager(parkingBoys);
         String carNumber = "a";
-        Ticket ticket = kingOfParkingLot.carInService(carNumber);
+        Ticket ticket = godOfParkingLot.carInService(carNumber);
         assertNotNull(ticket);
         assertEquals(ticket.getCarNumber(), carNumber);
     }
@@ -46,23 +54,25 @@ public class KingOfParkingLotTest {
     @Test
     public void testCarInServiceFailed() {
         String carNumber = "a";
-        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList2);
-        Ticket ticket = kingOfParkingLot.carInService(carNumber);
+        List<ParkingBoy> boys = new ArrayList<>();
+        ParkingManager parkingManager = new ParkingManager(boys);
+        Ticket ticket = parkingManager.carInService(carNumber);
         assertNull(ticket);
     }
 
     @Test
     public  void testCarOutServiceSuccess(){
-        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
-        String carNumber = "a";
-        Ticket ticket = kingOfParkingLot.carInService(carNumber);
-        assertTrue(kingOfParkingLot.carOutService(ticket));
+        ParkingManager godOfParkingLot;
+        godOfParkingLot = new ParkingManager(parkingBoys);
+        String carNumber = "abcdefg";
+        Ticket ticket = godOfParkingLot.carInService(carNumber);
+        assertTrue(godOfParkingLot.carOutService(ticket));
     }
 
     @Test
     public  void testCarOutServiceFailed(){
-        KingOfParkingLotLot kingOfParkingLot = new KingOfParkingLotLot(parkingLotList);
-        Ticket ticket = new Ticket("a");
+        ParkingManager kingOfParkingLot = new ParkingManager(parkingBoys);
+        Ticket ticket = new Ticket("a", 1);
         assertFalse(kingOfParkingLot.carOutService(ticket));
     }
 

@@ -42,7 +42,7 @@ public class ParkingLotTest {
 
     @Test
     public void testCarOutFailed() {
-        Ticket ticket = new Ticket("aa");
+        Ticket ticket = new Ticket("aa", 1);
         assertFalse(parkingLot.carOut(ticket));
     }
 

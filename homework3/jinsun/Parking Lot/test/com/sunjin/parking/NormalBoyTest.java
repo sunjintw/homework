@@ -1,5 +1,6 @@
 package com.sunjin.parking;
 
+import com.sunjin.parking.finder.NormalFinder;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ import static junit.framework.TestCase.*;
 /**
  * Created by jsun on 12/10/15.
  */
-public class QueenOfParkingLotTest {
+public class NormalBoyTest {
 
     List<ParkingLot> parkingLotList;
     List<ParkingLot> parkingLotList2;
@@ -20,7 +21,7 @@ public class QueenOfParkingLotTest {
     public void setUp() throws Exception {
         parkingLotList = new ArrayList<>();
         for (int i = 2; i < 5; i++) {
-            parkingLotList.add(new ParkingLot(i));
+            parkingLotList.add(new ParkingLot(i,i-2));
         }
         ParkingLot parkingLot1 = new ParkingLot(2);
         parkingLot1.carIn("1");
@@ -35,9 +36,9 @@ public class QueenOfParkingLotTest {
 
     @Test
     public void testCarInServiceSuccess() {
-        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList);
+        ParkingBoy normalBoy = new ParkingBoy(new NormalFinder(), parkingLotList);
         String carNumber = "a";
-        Ticket ticket = queenOfParkingLot.carInService(carNumber);
+        Ticket ticket = normalBoy.carInService(carNumber);
         assertNotNull(ticket);
         assertEquals(ticket.getCarNumber(), carNumber);
         assertEquals(2, ticket.getParkingLotIndex());
@@ -46,14 +47,14 @@ public class QueenOfParkingLotTest {
     @Test
     public void testCarInServiceFailed() {
         String carNumber = "a";
-        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList2);
+        ParkingBoy queenOfParkingLot = new ParkingBoy(new NormalFinder(), parkingLotList2);
         Ticket ticket = queenOfParkingLot.carInService(carNumber);
         assertNull(ticket);
     }
 
     @Test
     public  void testCarOutServiceSuccess(){
-        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList);
+        ParkingBoy queenOfParkingLot = new ParkingBoy(new NormalFinder(), parkingLotList);
         String carNumber = "a";
         Ticket ticket = queenOfParkingLot.carInService(carNumber);
         assertTrue(queenOfParkingLot.carOutService(ticket));
@@ -61,8 +62,8 @@ public class QueenOfParkingLotTest {
 
     @Test
     public  void testCarOutServiceFailed(){
-        ParkingLotManager queenOfParkingLot = new QueenOfParkingLotLot(parkingLotList);
-        Ticket ticket = new Ticket("a");
+        ParkingBoy queenOfParkingLot = new ParkingBoy(new NormalFinder(), parkingLotList);
+        Ticket ticket = new Ticket("a", 1);
         assertFalse(queenOfParkingLot.carOutService(ticket));
     }
 

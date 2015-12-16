@@ -17,8 +17,9 @@ public class Ticket {
 
     private int parkingLotIndex;
 
-    public Ticket(String carNumber) {
+    public Ticket(String carNumber, int parkingLotIndex) {
         this.carNumber = carNumber;
+        this.parkingLotIndex =parkingLotIndex;
     }
 
     public String getCarNumber() {
